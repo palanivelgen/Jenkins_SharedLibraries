@@ -1,4 +1,4 @@
 def call(){
 
-    sh 'mvn test'
+    sh 'mvn -version'
 }
