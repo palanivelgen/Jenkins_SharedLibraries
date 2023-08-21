@@ -1,3 +1,3 @@
-def call(credentialsId){
-waitForQualityGate abortPipeline: false, credentialsId: 'sonarqube-api'
+def call(sonarCredential){
+waitForQualityGate abortPipeline: false, credentialsId: sonarCredential
 }
